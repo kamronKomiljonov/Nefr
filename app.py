@@ -2,14 +2,11 @@ from telegram import Bot, Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler
 import sqlite3
 
-TOKEN = 'YOUR_BOT_TOKEN'
+TOKEN = '8034327628:AAFdIN_cUkaOPRNc2TlGDICMwrBKi5pY6zw'
 
 CHANNELS = [
     ("https://t.me/uznefr", "@uznefr"),
-    ("https://t.me/phonk2030", "@phonk2030"),
-    ("https://t.me/profil_uchun_rasmlar_original1", "@profil_uchun_rasmlar_original1"),
-    ("https://t.me/fixman_squid", "@fixman_squid"),
-    ("https://t.me/gomuuz", "@gomuuz")
+    ("https://t.me/phonk2030", "@phonk2030"
 ]
 
 # === DB Setup ===
